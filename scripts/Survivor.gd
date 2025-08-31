@@ -17,4 +17,3 @@ func gain_experience(points: int) -> void:
     if experience >= level * 100:
         experience = 0
         level += 1
-

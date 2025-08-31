@@ -5,4 +5,3 @@ class_name Card
 @export var description: String
 @export var cost: int
 @export var power: int = 0
-

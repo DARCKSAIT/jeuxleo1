@@ -16,4 +16,3 @@ func upgrade_cost() -> int:
 func upgrade() -> void:
     level += 1
     production_rate *= 1.2
-
