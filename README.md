@@ -5,6 +5,7 @@ Minimal Godot 4 project sketch for the "Survivants" roguelite deckbuilder.
 ## Contents
 - `scenes/Main.tscn` – starting scene
 - `scripts/Main.gd` – demonstrates resource production and survivor recruitment
+- `scripts/Main.gd` – loads the project and unlocks the first building
 - `scripts/Card.gd`, `scripts/Building.gd`, `scripts/Survivor.gd`, `scripts/RunManager.gd` – placeholder resources for core systems
 
 ## Running
@@ -22,3 +23,4 @@ The `resources/` folder contains early examples of cards, buildings, and a survi
 - Unlock buildings in a fixed order and generate food or materials each turn.
 - Spend materials to upgrade buildings for better production.
 - Recruit random survivors by spending food.
+Open the folder with Godot 4 or run `godot4 --path .` if the engine is installed.

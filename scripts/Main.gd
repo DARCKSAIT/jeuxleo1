@@ -13,3 +13,6 @@ func _ready():
     if run_manager.survivors.size() > 0:
         var survivor: Survivor = run_manager.survivors[0]
         print("Recruited survivor %s with %d cards" % [survivor.name, survivor.deck.size()])
+
+    var survivor: Survivor = load("res://resources/survivors/Nomade.tres")
+    print("Loaded survivor %s with %d cards" % [survivor.name, survivor.deck.size()])

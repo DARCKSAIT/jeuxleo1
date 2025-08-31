@@ -8,6 +8,12 @@ var building_order: Array = [
     preload("res://resources/buildings/Armory.tres")
 ]
 var unlocked_buildings: Array = []
+    "Refuge",
+    "Armory"
+]
+var unlocked_buildings: Array = []
+var building_order := ["Farm", "Factory", "Refuge", "Armory"]
+var unlocked_buildings: Array[String] = []
 
 var food: int = 0
 var materials: int = 0
@@ -59,3 +65,12 @@ func recruit_survivor() -> void:
     var res: Survivor = survivor_pool[randi() % survivor_pool.size()].duplicate()
     survivors.append(res)
     print("Recruited %s" % res.name)
+func unlock_next_building() -> void:
+    if building_order.size() > unlocked_buildings.size():
+        var next = building_order[unlocked_buildings.size()]
+        unlocked_buildings.append(next)
+        if next is Building:
+            print("Unlocked %s" % next.name)
+        else:
+            print("Unlocked %s" % next)
+        print("Unlocked %s" % next)
