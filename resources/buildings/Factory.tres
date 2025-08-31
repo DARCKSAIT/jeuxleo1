@@ -1,0 +1,6 @@
+[gd_resource type="Building" format=3]
+
+[resource]
+name="Usine"
+level=1
+production_rate=1.0

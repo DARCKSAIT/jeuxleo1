@@ -1,0 +1,6 @@
+[gd_resource type="Card" format=3]
+
+[resource]
+name="Coup de Poing"
+description="Inflige 5 dégâts."
+cost=1
