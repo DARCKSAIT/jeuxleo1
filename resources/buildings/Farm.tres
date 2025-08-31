@@ -3,4 +3,7 @@
 [resource]
 name="Ferme"
 level=1
+production_rate=5.0
+resource_type="food"
+base_upgrade_cost=50
 production_rate=2.5

@@ -3,4 +3,7 @@
 [resource]
 name="Usine"
 level=1
+production_rate=2.0
+resource_type="materials"
+base_upgrade_cost=100
 production_rate=1.0

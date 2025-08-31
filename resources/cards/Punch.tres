@@ -4,3 +4,4 @@
 name="Coup de Poing"
 description="Inflige 5 dégâts."
 cost=1
+power=5
