@@ -16,3 +16,4 @@ To launch the project directly:
 Both scripts expect `godot4` to be available in your `PATH`. You can also open the folder in the Godot editor or run `godot4 --path .` manually.
 
 The `resources/` folder contains early examples of cards, buildings, and a survivor to begin expanding the game's content.
+Open the folder with Godot 4 or run `godot4 --path .` if the engine is installed.

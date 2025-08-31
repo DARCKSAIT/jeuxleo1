@@ -8,6 +8,8 @@ var building_order: Array = [
     "Armory"
 ]
 var unlocked_buildings: Array = []
+var building_order := ["Farm", "Factory", "Refuge", "Armory"]
+var unlocked_buildings: Array[String] = []
 
 var food: int = 0
 var materials: int = 0
@@ -20,3 +22,4 @@ func unlock_next_building() -> void:
             print("Unlocked %s" % next.name)
         else:
             print("Unlocked %s" % next)
+        print("Unlocked %s" % next)
