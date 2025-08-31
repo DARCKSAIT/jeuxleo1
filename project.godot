@@ -1,0 +1,8 @@
+[gd_resource type="ConfigFile" format=3]
+
+[application]
+config/name="Survivants"
+run/main_scene="res://scenes/Main.tscn"
+
+[rendering]
+quality/intended_usage/framebuffer_allocation=2

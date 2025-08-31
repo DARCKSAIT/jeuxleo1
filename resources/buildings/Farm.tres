@@ -1,0 +1,6 @@
+[gd_resource type="Building" format=3]
+
+[resource]
+name="Ferme"
+level=1
+production_rate=2.5
