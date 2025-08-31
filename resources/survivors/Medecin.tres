@@ -1,0 +1,9 @@
+[gd_resource type="Survivor" load_steps=3 format=3]
+[ext_resource type="Card" path="res://resources/cards/Punch.tres" id="1"]
+[ext_resource type="Card" path="res://resources/cards/Heal.tres" id="2"]
+
+[resource]
+name="Médecin"
+deck=[ExtResource(1), ExtResource(2)]
+level=1
+experience=0

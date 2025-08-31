@@ -1,0 +1,7 @@
+[gd_resource type="Card" format=3]
+
+[resource]
+name="Soin"
+description="Restaure 5 PV."
+cost=2
+power=5

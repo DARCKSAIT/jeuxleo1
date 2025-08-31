@@ -1,0 +1,8 @@
+[gd_resource type="Building" format=3]
+
+[resource]
+name="Usine"
+level=1
+production_rate=2.0
+resource_type="materials"
+base_upgrade_cost=100

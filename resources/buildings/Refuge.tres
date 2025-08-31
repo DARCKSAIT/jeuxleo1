@@ -1,0 +1,8 @@
+[gd_resource type="Building" format=3]
+
+[resource]
+name="Refuge"
+level=1
+production_rate=0.0
+resource_type=""
+base_upgrade_cost=75
